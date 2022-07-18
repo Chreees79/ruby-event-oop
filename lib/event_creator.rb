@@ -11,7 +11,7 @@ class EventCreator
   end
 
   def start_date_event
-    puts "Super. Quand aura-t-il lieu ?"
+    puts "Super. Quand aura-t-il lieu (en format: YEAR/MONTH/DAY HOUR:MIN?"
     print "> "
     user_input_date = gets.chomp.to_s
     puts

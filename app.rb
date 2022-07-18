@@ -12,11 +12,14 @@ require_relative 'lib/calendar_display'
 # Maintenant c'est open bar pour tester ton application. Tous les fichiers importants sont chargés
 # Tu peux faire User.new, Event.new, binding.pry, User.all, etc.
 EventCreator.new
-=begin Event.new("2022/12/13 12:00", 10, "blabla", "julie@julie.com")
+puts "d'autres rdv pris..."
+puts
+Event.new("2022/12/13 12:00", 10, "blabla", "julie@julie.com")
 Event.new("2022/12/14 12:00", 10, "blabladdf", "a@b")
 Event.new("2022/01/14 12:00", 30, "bla", "a@bdsfs")
 puts Event.all
-=end
+puts
+puts " il y a #{Event.all.length} évènements prévus dans ton agenda !"
 
 calendar = CalendarDisplay.new(Event.all)
   

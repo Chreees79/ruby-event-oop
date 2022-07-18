@@ -1,0 +1,3 @@
+------------------------- Bienvenue à toi Visiteur ! ---------------------
+
+Je me suis essayée à créer une application où je peux créer des événements avec une date de début, une durée, et un nom. Je peux leur rattacher un lieu, des utilisateurs (qui y assisteront), et peut afficher la liste totale des rendez-vous. L'avantage de penser "objet" pour ce genre d'application est d'autant plus "parlante" ici.

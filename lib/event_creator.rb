@@ -2,7 +2,7 @@ require 'pry'
 class EventCreator
 
   def title_event
-    puts "Salut, tu veux créer un événement ? Cool !"
+    puts "Salut, tu veux créer un événement pour le mois de juillet? Cool !"
     puts "Commençons. Quel est le nom de l'événement ?"
     print "> "
     user_input_title = gets.chomp.to_s

@@ -1,4 +1,3 @@
-require 'pry'
 class EventCreator
 
   def title_event
